@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*---------------------------------*/
+
+html {
+    font-family: Merriweather, serif;
+    background-color: gray;
+    background: no-repeat radial-gradient(circle at 50% -10%, rgb(143, 143, 143) 10%, rgb(77, 77, 77));
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.body-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 2vw;
+    max-width: 768px;
+}
+
+.body-flex-container>* {
+    margin: 1vh 0px;
+    width: 100%;
+}
+
+.text-align-0 {
+    display: inline-block;
+    text-align: left;
+}
+
+.text-align-1 {
+    text-align: right;
+    font-size: 2.5vh;
+}
+
+.text-align-2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 9vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 5vh;
+    text-align: center;
+    margin: 1vh 0px;
+}
+
+h3 {
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 1.5vh;
+}
+
+h4 {
+    font-size: 3vh;
+    text-align: center;
+    margin: 3vh auto 2vh;
+}
+
+a {
+    color: darkblue;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: rgb(97, 0, 97);
+}
+
+hr {
+    border: none;
+    background-color: black;
+    height: 2px;
+    width: 85% !important;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 2.2vh;
+    list-style: inside square;
+    width: 75%;
+}
+
+li {
+    margin: 1vh 0px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container>* {
+    width: 45%;
+}
